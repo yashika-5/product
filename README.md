@@ -1,0 +1,176 @@
+# product
+3rd
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700' ">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="index_style.css">
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-top-fixed">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-hand-peace-o"></i> Purrfect Match</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home </a></li>
+        
+        <li><a href="#ab">About</a></li>
+        <li><a href="#con">Contact</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+			<li><a href="login.html">Login <i class="fa fa-user"></i></a></li>
+			<li><a href="signup.html"> Sign Up  <i class="fa fa-user-plus"></i></a></li>
+	</ul>		
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+   
+
+
+
+
+	<div class="container-fluid pink">
+		 <div class="row">
+		 	<div class="col-lg-12">
+		 		<div id="content">
+		 	 	<h1>Purrfect Match</h1>
+		 		<h3>The Only Human-Feline Dating App</h3>
+		 		<hr>
+		 		<button class="btn btn-default btn-lg"><i class="fa fa-paw"></i>   Get Started</button>
+		 	</div>
+		 </div>
+	</div>
+	</div>
+   
+
+   <br><br><br><br>
+<div class="container">
+<div class="row">
+	<div class="col-lg-12">
+		<div id="ab">
+		<h2 style="font-size: 46px;text-align: center;font-weight: 20px;">ABOUT</h2><br>
+	</div>
+   	<div id="aa">Online dating through applications are location based mobile applications created to make communication easier for people who want to meet, flirt, chat, and potentially get romantically involved. This is a form of mobile dating or online dating specifically for smartphone users. Since the first app launch, Tinder, in 2012, various variations of the application have been created. The most popular being Tinder, OkCupid, Coffee Meets Bagel, Hinge, Candidate, Tastebuds, Match.com, and Bumble.
+   	Tinder was the application that led the surge in mobile dating applications. Tinder was released in September 12, 2012 by founders Sean Ra, Jonathan Badeen, Justin Mateen, Joe Munoz, Dinesh Moorjani, Chris Gylczynski, and Whitney Wolfe. Although, other sources state that the founders are Mateen, Rad, and Badeen only. The application won TechCrunchs' Crunchie Award for “Best New Startup” in 2013. They now have a website that users can access: gotinder.com.</div>
+   </div>
+</div>
+</div>
+
+<br><br><br>
+
+
+<!--Section: Contact v.2-->
+<div class="container">
+<section class="section">
+
+    <!--Section heading-->
+    
+    <!--Section description-->
+    
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form"  method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+                	<div id="con">
+    <h2 style="font-size: 46px;font-weight: 20px; margin-left: 35%;">Contact US</h2><br>
+</div>
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        
+
+    </div>
+
+</section>
+</div>
+<!--Section: Contact v.2-->
+  <br><br>
+	<div class="jumbotron">
+<p style="text-align: center;">All Copyrights are Reserved 2018.</p>
+</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
